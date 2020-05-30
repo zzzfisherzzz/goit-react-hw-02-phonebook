@@ -1,0 +1,15 @@
+.label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inputGroup {
+  margin-bottom: 10px;
+}
+.formBtn {
+  padding: 5px 15px;
+  background: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
