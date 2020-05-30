@@ -35,7 +35,7 @@ export default class App extends Component {
   addContact = contact => {
     const { name } = contact;
     const contactsArray = this.state.contacts;
-    const    = contactsArray.find(con => con['name'] === name);
+    const nameExist = contactsArray.find(con => con['name'] === name);
     if (nameExist) {
       alert(`${name} is already exist`);
       return;
